@@ -1,0 +1,33 @@
+************* EParray[ cEP0 ]: DefaultBootFile KINNUM *****************************
+3      Aantal tijdsonafhankelijke tabellen: == 2! (=xInDep)
+0     ***table 0: table-type 0 (no interpolation)
+20 1  ***table 0: cNr_TINTode_Create_Settings (rows), 1 columns
+1              1:  IAlgRout      Algorithm-routine for integration(1=Euler)
+1              2:  IStepRout     Stepper-routine for integration(1=CrudeStep)
+0              3:  IDCRoot       Functie voor het insluiten van een discontinuiteit
+0              4:  IDCStepRout   Stepper-routine voor modellen met discontinuiteiten
+1              5:  IDriver       Driver-routine for integration (1=OdeInt)
+1              6:  I_nsubstep    Aantal sub-stappen in sommige algorithme-routines
+1              7:  I_nstep       Aantal sub-stappen in sommige stepper-routines (>=1)
+1000           8:  I_maxstp      Max. aantal stappen idem
+1.0            9:  I_htry        Initiele stapgrootte
+0.001          10: I_hmin        Minimale stapgrootte
+0.01           11: I_eps         Tolerantie
+0              12: cModelID               * WORDT OVERSCHREVEN DOOR BOOT-PROCEDURE
+0              13: ReadyToRun             * WORDT OVERSCHREVEN DOOR BOOT-PROCEDURE
+0              14: cNrOfRPs               * WORDT OVERSCHREVEN DOOR BOOT-PROCEDURE
+0              15: cNrOfSQRQs             * WORDT OVERSCHREVEN DOOR BOOT-PROCEDURE
+0              16: cNrOfAvSpeedsToExport  * WORDT OVERSCHREVEN DOOR BOOT-PROCEDURE
+0              17: Area (m2): wordt in Shell-omgeving vervangen door Shell-waarde
+0              18: Current_xs             * WORDT OVERSCHREVEN DOOR BOOT-PROCEDURE
+0              19: nDC                    * WORDT OVERSCHREVEN DOOR BOOT-PROCEDURE
+0              20: GERESERVEERD
+0    ***table 1: table-type 0 (no interpolation) 
+2 11 ***table 1: NrOfDepVar (rows), cNrOfDepVarOptions columns;  
+0   2 0 0 0 0    1 1 1 1 1 ystart[ 1 ];  1: {-GEMIDDELDE specifieke afvoer (m/d)}
+0   2 0 0 0 0    1 1 1 1 1 ystart[ 2 ];  2: {-GEMIDDELDE grondwaterstand (m-mv)}
+0    ***table 2: table-type 0 (no interpolation) 
+2 8  ***Min/max key/init-values 
+ -0.010 0.150    0.10 200.     0.01 0.50   5 500.  1-2:NN m/d;  3-4:Rc; 5-6:mu;     7-8: SltAfst;
+   -10.   50.    -10.  50.   -0.010 0.150  0    0  1-2:SltPeil; 3-4:Mv; 5-6:Q_init; 7-8: -
+0             Aantal tijdsafhankelijk (xy)-tabellen **********************************

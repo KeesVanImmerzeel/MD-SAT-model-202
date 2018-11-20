@@ -1,0 +1,28 @@
+************* EParray[ 1 ]: TestFile KINNUM **********
+1             Aantal tijdsonafhankelijke tabellen: (=xInDep)
+0             ***table 0: table-type 0 (no interpolation) 
+-60           -Aant. intervallen (i.p.v. rows, columns) UITVOERTIJDSTIPPEN (d)
+0 15          
+7             Aantal tijdsafhankelijk (xy)-tabellen (=xDep)******************
+0             table 0: table-type 0 (no interpolation)
+1             RP1 (NN): Neerslagoverschot (m/d)
+0 0
+0             table 1: table-type 0 (no interpolation)
+1             RP2 (Rc): Reservoir-coefficient (d)
+0 2.0
+0             table 2: table-type 0 (no interpolation)
+1             RP3 (mu): Freatische bergingscoefficient (-)
+0 0.05
+0             table 3: table-type 0 (no interpolation)
+1             RP4 (SltAfst): Slootafstand (m)
+0 60
+0             table 4: table-type 0 (no interpolation)
+1             RP5 (SltPeil): Slootpeil (m+NAP)
+0 -0.20
+0             table 5: table-type 0 (no interpolation)
+1             RP6 (Mv): Maaiveldsniveau (m+NAP)
+0 0.90
+0             table 6: table-type 0 (no interpolation)
+1             RP7 (Q_Init): Initiele specifieke afvoer (m/d)
+0 0.003
+
